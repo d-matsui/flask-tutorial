@@ -16,7 +16,7 @@ def test_register(client, app):
         ).fetchone() is not None
 
 
-@pytest.mark.parameterize(('username', 'password', 'message'), (
+@pytest.mark.parametrize(('username', 'password', 'message'), (
     ('', '', b'Username is required.'),
     ('a', '', b'Password is required.'),
     ('test', 'test', b'already registerd'),
@@ -40,7 +40,7 @@ def test_login(client, auth):
         assert g.user['username'] == 'test'
 
 
-@pytest.mark.parameterize(('username', 'password', 'message'), (
+@pytest.mark.parametrize(('username', 'password', 'message'), (
     ('a', 'test', b'Incorrect username.'),
     ('test', 'a', b'Incorrect password.'),
 ))
