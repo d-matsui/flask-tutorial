@@ -1,0 +1,20 @@
+attrs==19.3.0
+click==7.1.2
+coverage==5.1
+Flask==1.1.2
+-e git+git@github.com:d-matsui/flask-tutorial.git@ed5acea423a770bcd98663fc6079f68c74bd1566#egg=flaskr
+importlib-metadata==1.6.0
+itsdangerous==1.1.0
+Jinja2==2.11.2
+MarkupSafe==1.1.1
+more-itertools==8.2.0
+packaging==20.3
+pluggy==0.13.1
+py==1.8.1
+pyparsing==2.4.7
+pytest==5.4.2
+six==1.14.0
+waitress==1.4.3
+wcwidth==0.1.9
+Werkzeug==1.0.1
+zipp==3.1.0
