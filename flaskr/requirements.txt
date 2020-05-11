@@ -2,7 +2,6 @@ attrs==19.3.0
 click==7.1.2
 coverage==5.1
 Flask==1.1.2
--e git+git@github.com:d-matsui/flask-tutorial.git@ed5acea423a770bcd98663fc6079f68c74bd1566#egg=flaskr
 importlib-metadata==1.6.0
 itsdangerous==1.1.0
 Jinja2==2.11.2
